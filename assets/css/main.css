@@ -627,7 +627,7 @@ body {
 .cta-b {
   border-radius: 15px;
   color: #f1f1f1;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   letter-spacing: 4px;
 }
 
@@ -966,7 +966,8 @@ body {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 @media (max-width: 1180px) {
