@@ -627,9 +627,87 @@ body {
 .cta-b {
   border-radius: 15px;
   color: #f1f1f1;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   letter-spacing: 4px;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-left: 4px;
+
 }
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 3;
+    left: 0;
+    top: 0;
+    width: 100%;
+color: #000;
+    height: 100%;
+  
+    overflow: auto;
+   
+  }
+
+  .modal-content {
+    background-color: #ecdfdf;
+    margin: 15% auto;
+    padding: 20px;
+    /* border: 1px solid #888; */
+    width: 80%;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+
+  .container-contact {
+      max-width: 800px;
+      margin: 50px auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+    .contact-info {
+      text-align: center;
+      margin-top: 20px;
+    }
+    .contact-info p {
+      margin-bottom: 10px;
+    }
+    .phone {
+      font-size: 24px;
+    }
+    .email {
+      font-size: 20px;
+    }
+    .email a {
+      color: #007bff;
+      text-decoration: none;
+    }
+    .email a:hover {
+      text-decoration: underline;
+    }
+
+
+
+  .close {
+    color: #ee0909;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
 
 .header--cta.is-active {
   opacity: 1;
@@ -666,6 +744,42 @@ body {
   list-style-position: inside;
   z-index: 10;
 }
+
+.education {
+  margin-left: 6px;
+  font-size: 10px;
+  color: #a1a1a1;
+}
+
+.button {
+  display: inline-block;
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 18px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 6px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #45a049;
+  color: white;
+}
+
+.edu-container {
+  /* border: 2px red solid; */
+  direction: flex;
+  max-width: 500px;
+  
+ 
+}
+
 
 .side-nav > li {
   position: relative;
@@ -1188,15 +1302,15 @@ body {
 
 .about--banner {
   position: relative;
-  height: 475px;
+  height: 375px;
 }
 
 .about--banner h2 {
   position: relative;
-  margin-top: 35px;
+  margin-top: 15px;
   font-size: 68px;
   font-weight: 900;
-  line-height: 1;
+  line-height: 1.2;
   z-index: 1;
   color: #dd322f;
 }
@@ -1589,6 +1703,13 @@ body {
 
 .work-request--options input[type="checkbox"]:checked + label svg {
   width: 15px;
+}
+label li {
+  border: 2px solid red;
+  margin-top: 0;
+  border-style: none;
+  
+ 
 }
 
 .work-request--information {

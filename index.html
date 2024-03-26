@@ -55,6 +55,7 @@
                 <li><span>About</span></li>
                 <li><span>Experience</span></li>
                 <li><span>Skills</span></li>
+                
               </ul>
             </nav>
             <ul class="l-main-content main-content">
@@ -63,15 +64,35 @@
                   <div class="intro--banner">
                     <h1>
                       Hey 👋🏽 <br />I am Adekola
-                      <em style="font-size: large"> AKA Kay</em> 👨🏽‍💻
+                      <em style="font-size: large"> Kay</em> 👨🏽‍💻
                     </h1>
                     <!-- <a style="color: #fff" href="#" target="_blank"> -->
-                      <button class="cta-b" onClick="{showAlert}">
-                        Resume
-                        <!-- <span class="btn-background"></span> -->
-                      </button>
+                    <button class="cta-b" onClick="{showAlert}">
+                      Resume
+                      <!-- <span class="btn-background"></span> -->
+                    </button>
+                    <button class="cta-b" onclick="showModal()">Bio</button>
+
+<!-- Modal -->
+<div id="myModal" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <p>
+  <em>Adekola is an accomplished IT professional with a strong foundation in both technical and leadership roles, currently excelling in the realm of Information Technology Operations. With a Master of Science in Information Technology, he has demonstrated expertise in software development, UX/product design, and project management across various innovative projects. At the core of his career is a passion for leveraging technology to drive operational excellence and innovation.</em>
+</p>
+<p>
+  <em>Notably, he played a pivotal role in developing ASTRIX prototypes, significantly enhancing user adoption by 80%, and spearheaded the design of an institute website and portal, attracting 95% more traffic. These achievements underscore his ability to blend technical skills with strategic vision to deliver impactful results.</em>
+</p>
+<p>
+  <em>He is proficient in a wide array of technical tools, including Adobe Creative Suite, Engineering Design Process, MERN Stack, Prompt Engineer, Databases config, CI/CD, and Developer Tools, complemented by strong collaboration, facilitation, and self-starting skills. These competencies make him a dynamic leader in IT operations, adept at managing technical projects, improving operational efficiency, and fostering innovation.</em>
+</p>
+<p>
+  <em>With a commitment to excellence and a forward-thinking approach, He is dedicated to enhancing the operational capabilities of organizations through technology. He is eager to continue this journey, contributing to the success of forward-looking companies in the ever-evolving IT landscape.</em>
+</p>
+
+  </div>
+</div>
                     <!-- </a> -->
-                  
                   </div>
                   <div class="intro--options" style="padding-top: 30px">
                     <!-- Branded LinkedIn button -->
@@ -124,22 +145,35 @@
                 <div class="about">
                   <div class="about--banner">
                     <h2>
-                      Software Developer; Technologist | Innovator |
+                      Software Developer; Technologist | Prompt Engineer |
                       Crytographer
                     </h2>
-                    <p style="color: #ffff; font-weight: 900">
-                      Computer Science Alum<br />Nigerian Defence Academy
-                    </p>
-                    <p style="color: #a1a1a1; font-weight: 900">
-                      <em
-                        >I'm a student of life, always ambitious and curious
-                        about the world around, and I am actively looking to
-                        exploring opportunities and taking on challenges.</em
-                      >
-                    </p>
+                    <h5>Education:</h5>
+                    <div class="edu-container">
+                      <div class="p-tag">
+                        <p style="color: #ffff; font-weight: 900">
+                          Msc Information Technology <br />
+                          <span class="education"
+                            >. Nigerian Defence Academy</span
+                          >
+                        </p>
+                        <p style="color: #ffff; font-weight: 900">
+                          Bsc Computer Science <br />
+                          <span class="education"
+                            >. Nigerian Defence Academy</span
+                          >
+                        </p>
+                      </div>
+                     
+                    </div>
                     <br />
-                    <a href="mailto:gabkola94@gmail.com" target="_blank"
-                      >For More Info, hit me up
+                    <a
+                      href="https://www.linkedin.com/in/adekola-aderonmu-06bba4191/details/certifications/"
+                      target="_blank"
+                      class="button"
+                      ><em style="margin-left: 4px; size: 8px; color: white"
+                        >Awards/Certifications</em
+                      >
                       <span>
                         <svg
                           version="1.1"
@@ -202,14 +236,14 @@
                   <ul class="customupdates">
                     <li>
                       <a
-                        href="https://github.com/kola-Aderonmu/MutiPurpose-Exams-Clock.git"
+                        href="#"
                         target="_blank"
                         >🎧 Multipurpose Interactive Exams Clock System.</a
                       >
                     </li>
                     <li>
                       <a
-                        href="https://github.com/kola-Aderonmu/DMS.git"
+                        href="#"
                         target="_blank"
                         >📚 Automated Document Management System.</a
                       >
@@ -221,21 +255,21 @@
                     </li>
                     <li>
                       <a
-                        href="https://github.com/abhisheknaiidu/IIITDMJ-GPA"
+                        href="#"
                         target="_blank"
                         >🧮 CPI Calculator.</a
                       >
                     </li>
                     <li>
                       <a
-                        href="https://github.com/kola-Aderonmu/Voting-System.git"
+                        href="#"
                         target="_blank"
                         >🧮 Simple-Voting-System.</a
                       >
                     </li>
                     <li>
                       <a
-                        href="https://github.com/kola-Aderonmu/Simple-Chat-Bot.git"
+                        href="#"
                         target="_blank"
                         >🌮 Simple Simple-Chat-Bot.</a
                       >
@@ -448,6 +482,7 @@
                           </svg>
                           Development Tools 🐳
                         </label>
+
                         <input id="opt-9" type="checkbox" value="Scrapping" />
                         <label for="opt-9">
                           <svg
@@ -469,19 +504,41 @@
                               />
                             </g>
                           </svg>
-                          Web Scrapping Tools 🦂🍲
+                          <li>AI Prompt Engineer 🤖</li>
+                          <li>Data Analyst 📊</li>
+                          <li>Web Scrapping Tools 🦂🍲</li>
                         </label>
                       </span>
                     </div>
                     <div class="intro--options" style="text-align: center">
-                      <a href="mailto:2018057@iiitdmj.ac.in" target="_blank">
-                        <h1>For More Info</h1>
-                        <p>Drop me a mail here.</p>
+                      <a href="#contact" target="_blank">
+                        <h1>For More Info...</h1>
+                        <p>Click Me.</p>
                       </a>
                     </div>
                   </form>
                 </div>
+
               </li>
+
+              <!-- <Contact section> -->
+
+<li class="l-section section" id="contact">
+                <div class="hire">
+                  <h2>GET IN TOUCH...</h2>
+                  <div class="container-cantact">
+    
+    <div class="contact-info">
+      <p class="phone">
+📞 Phone: 08166462615</p>
+      <p class="email">📧 Email: <a href="mailto:gabkola94@gmail.com">gabkola94@gmail.com</a></p>
+    </div>
+    <p style="text-align: center; margin-top: 5px;"><em> Look forward to talking with you soon!</em></p>
+  </div>
+
+
+
+
             </ul>
           </div>
         </div>
@@ -491,6 +548,7 @@
         <li>About</li>
         <li>Experience</li>
         <li>Skills</li>
+        <li>Contact</li>
         <!-- <li><a href="https://drive.google.com/file/d/10GKdScol1BXsMQmSVO30rswZ8lqkakmy/view" style="text-decoration:none;color:#dd322f;" target="_blank">Resume</a></li> -->
       </ul>
     </div>
